@@ -12,6 +12,7 @@
 #Preforming the above will automatically set up openssh 
 #1. Admin --> cygrunsrv 
 #2. Net --> openssh
+#3.  Gawk
 #Optional
 #   Editors --> vim
 #   Utilities --> ncurses
