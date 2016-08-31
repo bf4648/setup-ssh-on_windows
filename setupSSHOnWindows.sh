@@ -80,12 +80,33 @@ add_firewall_exception() {
 	netsh advfirewall firewall add rule name=""$FIREWALL_SERVICE_NAME"" dir=in action=allow program=""$CYGWIN_PATH"" profile=""$FIREWALL_PROFILE"" "$FIREWALL_SERVICE_NAME" enable=yes
 }
 
-fix_perms() {
+fix_perms_on_passwd() {
 	
 	chmod +r /etc/passwd
 	chmod u+w /etc/passwd
-	chmod +r /etc/passwd
+}
 
+fix_perms_on_group(){
+
+	chmod +r /etc/group
+	chmod u+w /etc/group
+}
+
+fix perms_on_var() {
+	chmod 755 /var
+}
+
+create_sshd_log_file() {
+	touch /var/log/sshd.log
+}
+
+edit_sshd_rights_on_windows() {
+	editrights -l -u sshd
+	editrights -a SeAssignPrimaryTokenPrivilege -u sshd
+	editrights -a SeCreateTokenPrivilege -u sshd
+	editrights -a SeTcbPrivilege -u sshd
+	editrights -a SeServiceLogonRight -u sshd
+	editrights -l -u sshd
 }
 
 fix_passwd() {
