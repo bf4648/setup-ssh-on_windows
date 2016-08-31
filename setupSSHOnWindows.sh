@@ -27,23 +27,33 @@ set -x
 #   *** ---Be sure to run Cygwin as Administrator --- ***
 FIREWALL_SERVICE_NAME="SSHD"
 CYGWIN_PATH="c:\cygwin64\usr\sbin\sshd.exe"
-FIREWALL_PROFILE="private"
+FIREWALL_PROFILE="any"
+
+#TODO: go through the following tutorial and fix my code
+# techtorials.me/cygwin/sshd-configuration/	
 
 #Remove Commands
-start_sshd_service() {
-	#or net start sshd
-	net start sshd
+stop_sshd_service_in_cygwin() {
+	cygrunsrv --stop sshd
 }
 
-stop_sshd_service() {
-	net stop sshd
+remove_sshd_user_in_cygwin() {
+	cygrunsrv --remove sshd
 }
 
-remove_sshd_user() {
+remove_sshd_user_from_passwd() {
+	sed -i /sshd/d /etc/passwd
+}
+
+remove_cyg_server_user_from_passwd() {
+	sed -i /cyg_server/d /etc/passwd
+}
+
+remove_sshd_user_in_windows() {
 	net user sshd /delete
 }
 
-remove_cyg_server_user() {
+remove_cyg_server_user_in_windows() {
 	net user cyg_server /delete
 }
 
@@ -52,6 +62,11 @@ remove_firewall_exception() {
 }
 
 #Set up Commands
+start_sshd_service_in_windows() {
+	#or net start sshd
+	net start sshd
+}
+
 setup_local_security_authority() {
 	echo "yes" | cyglsa-config
 }
@@ -65,6 +80,14 @@ add_firewall_exception() {
 	netsh advfirewall firewall add rule name=""$FIREWALL_SERVICE_NAME"" dir=in action=allow program=""$CYGWIN_PATH"" profile=""$FIREWALL_PROFILE"" "$FIREWALL_SERVICE_NAME" enable=yes
 }
 
+fix_perms() {
+	
+	chmod +r /etc/passwd
+	chmod u+w /etc/passwd
+	chmod +r /etc/passwd
+
+}
+
 fix_passwd() {
 	#In order to harmonize Windows user information with Cygwin
 	mkpasswd --local > /etc/passwd
@@ -73,14 +96,17 @@ fix_passwd() {
 fix_groups() {
 	#In order to harmonize Windows user information with Cygwin
 	mkgroup --local > /etc/group
-
 }
 
 remove_ssh_on_windows() {
-	stop_sshd_service
-	remove_cygrunsrv_user
-	remove_sshd_user
-	remove_cyg_server_user
+	#ref: http://superuser.com/questions/110726/how-to-uninstall-reinstall-cygwin-to-use-sshd
+	stop_sshd_service_in_cygwin
+	remove_sshd_user_in_cygwin
+	remove_sshd_user_from_passwd
+	remove_cyg_server_user_from_passwd
+	remove_sshd_user_in_windows
+	remove_cyg_server_user_in_windows
+	remove_firewall_exception
 }
 
 setup_ssh_on_windows() {
@@ -89,8 +115,7 @@ setup_ssh_on_windows() {
 	fix_groups
 	setup_local_security_authority
 	add_firewall_exception
-	stop_sshd_service
-	start_sshd_service
+	start_sshd_service_in_windows
 }
 
 remove_ssh_on_windows
