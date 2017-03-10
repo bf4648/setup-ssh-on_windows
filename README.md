@@ -1,10 +1,18 @@
 # Getting started
 
-If you are using cygwin, to get ssh working
+
+## To get ssh working
+
+Set  the permissiosn of the ~/.ssh file in cygwin
 
 ```
 chmod 700 ~/.ssh
 ```
 
+## Run the script (be sure to open cygwin as Administrator
 
-## Run cygwin as administration
+## To log in using ssh use the windows user name and windows password of the user
+
+```
+ssh windows_user@ip 
+```
