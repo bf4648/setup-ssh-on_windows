@@ -4,20 +4,13 @@ set -x
 
 #Run this script in cygwin using './setupSSHOnWindows.sh' from the terminal
 
-# Refs:  
-# 1.  	http://www.security-plus.co/OpenSSH.txt 
-# 2.  	http://www.noah.org/ssh/cygwin-sshd.html
-# 3.  	https://bscb.cornell.edu/about/resources/windows-installing-ssh-server
-# 4. 	https://github.com/vicrucann/rshell-mat
-# 5. 	http://superuser.com/questions/110726/how-to-uninstall-reinstall-cygwin-to-use-sshd
-# 6. 	techtorials.me/cygwin/sshd-configuration/	
-
 #You may not really need this script now...just run https://github.com/tschutter/AppData
 #Preforming the above will automatically set up openssh 
 #1.	Admin --> cygrunsrv 
 #2.	Net --> openssh
 #3.	Gawk
 #Optional
+#	git
 #	Editors --> vim
 #	Utilities --> ncurses
 #	Net --> curl
