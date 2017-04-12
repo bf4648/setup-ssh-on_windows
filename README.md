@@ -25,13 +25,6 @@ git clone https://github.com/bf4648/setup-ssh-on_windows
 ./setupSSHOnWindows.sh
 ```
 
-## To get logging in working after running the script
-### Set the permisssion of the ~/.ssh file in cygwin
-
-```
-chmod 700 ~/.ssh
-```
-
 ## To log in using ssh use the windows user name and windows password of the user
 
 ```

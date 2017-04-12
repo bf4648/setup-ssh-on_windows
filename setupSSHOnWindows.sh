@@ -2,29 +2,12 @@
 set -x
 #set -e
 
-#Run this script in cygwin using './setupSSHOnWindows.sh' from the terminal
-
-#You may not really need this script now...just run https://github.com/tschutter/AppData
-#Preforming the above will automatically set up openssh 
-#1.	Admin --> cygrunsrv 
-#2.	Net --> openssh
-#3.	Gawk
-#Optional
-#	git
-#	Editors --> vim
-#	Utilities --> ncurses
-#	Net --> curl
-#	Net --> wget
-#	Net --> rsync
-#   *** ---Be sure to run Cygwin as Administrator --- ***
-
+#Run this script in cygwin using './setupSSHOnWindows.sh' from the cygwin terminal
 FIREWALL_SERVICE_NAME="SSHD"
 CYGWIN_PATH="c:\cygwin64\usr\sbin\sshd.exe"
 FIREWALL_PROFILE="any"
-
 PASSWORD="9d4iPuFucyQ9dT4w"
 SSH_PASSPHRASE="test"
-# techtorials.me/cygwin/sshd-configuration/	
 
 #Remove Commands
 stop_sshd_service_in_cygwin() {
@@ -105,6 +88,10 @@ start_sshd_service_in_windows() {
 	net start sshd
 }
 
+correct_file_perms_on_ssh_file() {
+	chmod 700 ~/.ssh
+}
+
 remove_ssh_on_windows() {
 	#ref: http://superuser.com/questions/110726/how-to-uninstall-reinstall-cygwin-to-use-sshd
 	stop_sshd_service_in_cygwin
@@ -133,6 +120,7 @@ setup_ssh_on_windows() {
 	setup_local_security_authority
 	add_firewall_exception
 	start_sshd_service_in_windows
+	correct_file_perms_on_ssh_file
 }
 
 remove_ssh_on_windows
