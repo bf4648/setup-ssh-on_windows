@@ -19,7 +19,7 @@ rsync
 git clone https://github.com/bf4648/setup-ssh-on_windows
 ```
 
-## Run the cygwin as Administrator and executing the setupSSHOnWindows.sh script
+## Run cygwin as Administrator and execute the setupSSHOnWindows.sh script
 
 ```
 ./setupSSHOnWindows.sh
