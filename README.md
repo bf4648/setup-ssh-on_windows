@@ -15,7 +15,7 @@ lynx
 nmap
 ```
 
-You can also just use chocolately
+From the cmd prompt (after installing chocolatey), enter in the following commands:  
 
 ```
 choco install cygwin
