@@ -17,8 +17,9 @@ unzip
 tree
 ```
 
-From the cmd prompt (after installing chocolatey), enter in the following commands: 
-You can even execute the 'choco install a_program --source=cygwin' command while inside cygwin 
+2.  From the cmd prompt (after installing chocolatey), enter in the following commands: 
+
+You can even execute the 'choco install a_program --source=cygwin' command while inside cygwin
 
 ```
 choco install cygwin
