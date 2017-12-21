@@ -1,6 +1,6 @@
 # Getting started
 
-## Install the following programs in cygwin:
+1. Install the following programs in cygwin:
 
 ```
 cygrunsrv 
@@ -21,7 +21,7 @@ choco install cygwin
 choco install cygrunsrv openssh git vim ncurses curl wget rsync lynx --source=cygwin
 ```
 
-## Clone the repo in the cygwin terminal
+2. Clone the repo in the cygwin terminal
 
 ```
 mkdir ~/git
@@ -29,7 +29,8 @@ cd ~/git
 git clone https://github.com/bf4648/setup-ssh-on_windows
 ```
 
-## Run cygwin as Administrator and execute the setupSSHOnWindows.sh script
+3. Open the cygwin terminal as an administrator
+4. Execute the setupSSHOnWindows.sh script
 
 ```
 cd ~/git/setup-ssh-on_windows
