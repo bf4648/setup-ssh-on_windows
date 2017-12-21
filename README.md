@@ -17,13 +17,7 @@ You can also just use chocolately
 
 ```
 choco install cygwin
-choco install cyg-get
-```
-
-### Open Cygwin terminal and enter in the following command
-
-```
-cyg-get.bat cygrunsrv openssh git vim ncurses curl wget rsync
+choco install cygrunsrv openssh git vim ncurses curl wget rsync --source=cygwin
 ```
 
 ## Clone the repo in the cygwin terminal
