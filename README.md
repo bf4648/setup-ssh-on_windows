@@ -18,6 +18,11 @@ You can also just use chocolately
 ```
 choco install cygwin
 choco install cyg-get
+```
+
+### Open cygwin and enter in the following command
+
+```
 cyg-get install cygrunsrv openssh git vim ncurses curl wget rsync
 ```
 
