@@ -11,13 +11,14 @@ ncurses
 curl
 wget
 rsync
+lynx
 ```
 
 You can also just use chocolately
 
 ```
 choco install cygwin
-choco install cygrunsrv openssh git vim ncurses curl wget rsync --source=cygwin
+choco install cygrunsrv openssh git vim ncurses curl wget rsync lynx --source=cygwin
 ```
 
 ## Clone the repo in the cygwin terminal
