@@ -1,6 +1,6 @@
 # Getting started
 
-## Install the correct programs in cygwin
+## Install the following programs in cygwin:
 
 ```
 cygrunsrv 
