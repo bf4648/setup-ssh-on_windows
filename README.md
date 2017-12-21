@@ -13,13 +13,14 @@ wget
 rsync
 lynx
 nmap
+unzip
 ```
 
 From the cmd prompt (after installing chocolatey), enter in the following commands:  
 
 ```
 choco install cygwin
-choco install cygrunsrv openssh git vim ncurses curl wget rsync lynx nmap --source=cygwin
+choco install cygrunsrv openssh git vim ncurses curl wget rsync lynx nmap unzip --source=cygwin
 ```
 
 2. Clone the repo in the cygwin terminal
