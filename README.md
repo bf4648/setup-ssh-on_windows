@@ -20,10 +20,10 @@ choco install cygwin
 choco install cyg-get
 ```
 
-### Open cygwin and enter in the following command
+### Open Cygwin terminal and enter in the following command
 
 ```
-cyg-get install cygrunsrv openssh git vim ncurses curl wget rsync
+cyg-get.bat install cygrunsrv openssh git vim ncurses curl wget rsync
 ```
 
 ## Clone the repo in the cygwin terminal
