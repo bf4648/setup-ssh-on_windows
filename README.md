@@ -24,12 +24,15 @@ choco install cygrunsrv openssh git vim ncurses curl wget rsync lynx --source=cy
 ## Clone the repo in the cygwin terminal
 
 ```
+mkdir ~/git
+cd ~/git
 git clone https://github.com/bf4648/setup-ssh-on_windows
 ```
 
 ## Run cygwin as Administrator and execute the setupSSHOnWindows.sh script
 
 ```
+cd ~/git/setup-ssh-on_windows
 ./setupSSHOnWindows.sh
 ```
 
