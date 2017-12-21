@@ -56,6 +56,8 @@ cd ~/git/setup-ssh-on_windows
 ssh windows_user@windows_ip 
 ```
 
+** Note: chocolately default installation directory is: C:\ProgramData\chocolatey
+
 ## Refs:  
 
 [open-ssh](http://www.security-plus.co/OpenSSH.txt)
