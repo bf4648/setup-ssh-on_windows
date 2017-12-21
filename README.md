@@ -29,8 +29,14 @@ cd ~/git
 git clone https://github.com/bf4648/setup-ssh-on_windows
 ```
 
-3. Open the cygwin terminal as an administrator
-4. Execute the setupSSHOnWindows.sh script
+3. Create a default ssh key
+
+```
+ssh-keygen.exe
+```
+
+4. Open the cygwin terminal as an administrator
+5. Execute the setupSSHOnWindows.sh script
 
 ```
 cd ~/git/setup-ssh-on_windows
