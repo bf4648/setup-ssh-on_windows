@@ -43,9 +43,10 @@ ssh-keygen.exe
 cd ~/git/setup-ssh-on_windows
 ./setupSSHOnWindows.sh
 ```
+
 6. If you are using virtualbox, be sure to change your network to a 'NAT Network'
 
-## To log in using ssh use the windows user name and windows password of the user
+7. To log in using ssh use the windows user name and windows password of the user
 
 ```
 ssh windows_user@windows_ip 
