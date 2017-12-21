@@ -13,6 +13,14 @@ wget
 rsync
 ```
 
+You can also just use chocolately
+
+```
+choco install cygwin
+choco install cyg-get
+cyg-get install cygrunsrv openssh git vim ncurses curl wget rsync
+```
+
 ## Clone the repo in the cygwin terminal
 
 ```
