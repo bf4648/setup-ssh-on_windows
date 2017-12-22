@@ -56,7 +56,10 @@ cd ~/git/setup-ssh-on_windows
 ssh windows_user@windows_ip 
 ```
 
-** Note: chocolately default installation directory is: C:\ProgramData\chocolatey
+* Note: chocolately default installation directory is: C:\ProgramData\chocolatey
+* Programs are installed: C:\tools
+* If you having permission problems: [permission-problems-in-cygwin](http://georgik.rocks/how-to-fix-incorrect-cygwin-permission-inwindows-7/)
+
 
 ## Refs:  
 
