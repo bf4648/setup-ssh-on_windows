@@ -1,24 +1,6 @@
 # Getting started
 
-## Install the following programs in cygwin:
-
-```
-cygrunsrv 
-openssh
-git
-vim
-ncurses
-curl
-wget
-rsync
-lynx
-nmap
-unzip
-tree
-realpath
-```
-
-1. From the cmd prompt (after installing chocolatey), enter in the following commands: 
+1. Install the following programs in cygwin:
 
 ```
 choco install cygwin
