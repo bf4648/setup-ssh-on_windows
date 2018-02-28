@@ -41,6 +41,8 @@ ssh windows_user@windows_ip
 
 [port-forwarding-on-nat](https://stackoverflow.com/questions/15580525/virtualbox-port-forwarding-not-working-with-nat-adapter)
 
+[port-forwarding-on-windows](https://www.howtogeek.com/122641/how-to-forward-ports-to-a-virtual-machine-and-use-it-as-a-server/)
+
 * Note: chocolately default installation directory is: C:\ProgramData\chocolatey
 * Programs are installed: C:\tools
 * If you having permission problems: [permission-problems-in-cygwin](http://georgik.rocks/how-to-fix-incorrect-cygwin-permission-inwindows-7/)
