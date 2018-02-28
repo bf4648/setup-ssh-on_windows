@@ -37,6 +37,10 @@ cd ~/git/setup-ssh-on_windows
 ssh windows_user@windows_ip 
 ```
 
+8. If you are using a NAT virtualbox you will need to set up port forwarding 
+
+[port-forwarding-on-nat](https://stackoverflow.com/questions/15580525/virtualbox-port-forwarding-not-working-with-nat-adapter)
+
 * Note: chocolately default installation directory is: C:\ProgramData\chocolatey
 * Programs are installed: C:\tools
 * If you having permission problems: [permission-problems-in-cygwin](http://georgik.rocks/how-to-fix-incorrect-cygwin-permission-inwindows-7/)
