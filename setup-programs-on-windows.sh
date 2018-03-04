@@ -15,6 +15,7 @@ declare programs=(
 	'tree'
 	'realpath'
 	'git'
+	'fish'
 )
 
 install_programs() {
