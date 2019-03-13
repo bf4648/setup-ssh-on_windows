@@ -1,13 +1,18 @@
 # Getting started
 
-1. Install the following programs in cygwin (after install chocoately):
+1. Install Cygwin (after install chocoately):
 
-```
+```shell
 choco install cygwin -y
+```
+
+2. Install the following programs within cygwin
+
+```shell
 choco install cygrunsrv openssh git vim ncurses curl wget rsync lynx nmap unzip tree realpath git -y --source=cygwin
 ```
 
-2. Clone the repo in the cygwin terminal
+3. Clone the repo in the cygwin terminal
 
 ```
 mkdir ~/git
@@ -15,29 +20,29 @@ cd ~/git
 git clone https://github.com/bf4648/setup-ssh-on_windows
 ```
 
-3. Create a default ssh key
+4. Create a default ssh key
 
 ```
 ssh-keygen.exe
 ```
 
-4. Open the cygwin terminal as an administrator
-5. Execute the setupSSHOnWindows.sh script
+5. Open the cygwin terminal as an administrator
+6. Execute the setupSSHOnWindows.sh script
 
 ```
 cd ~/git/setup-ssh-on_windows
 ./setupSSHOnWindows.sh
 ```
 
-6. If you are using virtualbox, be sure to change your network to a 'NAT Network'
+7. If you are using virtualbox, be sure to change your network to a 'NAT Network'
 
-7. To log in using ssh use the windows user name and windows password of the user
+8. To log in using ssh use the windows user name and windows password of the user
 
 ```
 ssh windows_user@windows_ip 
 ```
 
-8. If you are using a NAT virtualbox you will need to set up port forwarding 
+9. If you are using a NAT virtualbox you will need to set up port forwarding 
 
 [port-forwarding-on-nat](https://stackoverflow.com/questions/15580525/virtualbox-port-forwarding-not-working-with-nat-adapter)
 
