@@ -1,6 +1,6 @@
 # Getting started
 
-1. Install the following programs in cygwin:
+1. Install the following programs in cygwin (after install chocoately):
 
 ```
 choco install cygwin
