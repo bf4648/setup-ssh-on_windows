@@ -32,6 +32,7 @@ ssh-keygen.exe
 ```
 cd ~/git/setup-ssh-on_windows
 ./setupSSHOnWindows.sh
+chmod +x setupSSHOnWindows.sh
 ```
 
 7. If you are using virtualbox, be sure to change your network to a 'NAT Network'
