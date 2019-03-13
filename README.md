@@ -3,8 +3,7 @@
 1. Install the following programs in cygwin (after install chocoately):
 
 ```
-choco install cygwin
-choco install cygrunsrv openssh git vim ncurses curl wget rsync lynx nmap unzip tree realpath git -y --source=cygwin
+choco install cygwin cygrunsrv openssh git vim ncurses curl wget rsync lynx nmap unzip tree realpath git -y --source=cygwin
 ```
 
 2. Clone the repo in the cygwin terminal
