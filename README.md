@@ -3,7 +3,7 @@
 1. Install the following programs in cygwin (after install chocoately):
 
 ```
-choco install cygwin
+choco install cygwin -y
 choco install cygrunsrv openssh git vim ncurses curl wget rsync lynx nmap unzip tree realpath git -y --source=cygwin
 ```
 
