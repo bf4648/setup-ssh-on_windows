@@ -9,7 +9,7 @@ choco install cygwin -y
 2. Install the following programs within cygwin
 
 ```shell
-choco install cygrunsrv openssh git vim ncurses curl wget rsync lynx nmap unzip tree realpath git -y --source=cygwin
+choco install cygrunsrv openssh vim ncurses curl wget rsync lynx nmap unzip tree realpath git -y --source=cygwin
 ```
 
 3. Clone the repo in the cygwin terminal
