@@ -1,6 +1,6 @@
 # Getting started
 
-1. Install Cygwin (after install chocoately):
+1. Install Cygwin (after install chocoately) in an Admin Command Prompt:
 
 ```shell
 choco install cygwin -y
