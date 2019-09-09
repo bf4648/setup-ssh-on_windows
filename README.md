@@ -1,6 +1,8 @@
 # Getting started
 
-## NOTE: excellent reference on how to set up open ssh on windows: [open-ssh-on-windows](https://www.admfactory.com/how-to-install-openssh-on-windows/)
+## NOTE: excellent reference on how to set up open ssh on windows: 
+
+[open-ssh-on-windows](https://www.admfactory.com/how-to-install-openssh-on-windows/)
 
 1. Install Cygwin (after install chocoately) in an Admin Command Prompt:
 
