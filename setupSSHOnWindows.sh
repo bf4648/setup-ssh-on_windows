@@ -39,6 +39,10 @@ remove_firewall_exception() {
 }
 
 #Set up Commands
+generate_passwd_file() {
+	mkpasswd -l -p "$(cygpath -H)" > /etc/passwd
+}
+
 fix_perms_on_passwd() {
 	chmod +r /etc/passwd
 	chmod u+w /etc/passwd
@@ -104,7 +108,9 @@ remove_ssh_on_windows() {
 }
 
 setup_ssh_on_windows() {
-
+	# generate passwd file
+	generate_passwd_file
+	
 	#fix perms
 	fix_perms_on_passwd
 	fix_perms_on_group
