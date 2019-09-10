@@ -10,7 +10,7 @@
 choco install cygwin -y
 ```
 
-2. Install the following programs within cygwin
+2. Install the following programs within cygwin in an Admin Command Prompt Window:
 
 ```shell
 choco install cygrunsrv openssh vim ncurses curl wget rsync lynx nmap unzip tree realpath git -y --source=cygwin
