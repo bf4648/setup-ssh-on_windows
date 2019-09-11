@@ -4,7 +4,7 @@ set -x
 
 #Run this script in cygwin using './setupSSHOnWindows.sh' from the cygwin terminal
 FIREWALL_SERVICE_NAME="SSHD"
-CYGWIN_PATH="c:\cygwin64\usr\sbin\sshd.exe"
+CYGWIN_PATH="c:\tools\cygwin\usr\sbin\sshd.exe"
 FIREWALL_PROFILE="any"
 PASSWORD="9d4iPuFucyQ9dT4w"
 SSH_PASSPHRASE="test"
@@ -40,7 +40,14 @@ remove_firewall_exception() {
 
 #Set up Commands
 generate_passwd_file() {
+	# Ref: https://cygwin.com/cygwin-ug-net/mkpasswd.html
 	mkpasswd -l -p "$(cygpath -H)" > /etc/passwd
+}
+
+generate_mkgroup() {
+	# Ref: https://cygwin.com/cygwin-ug-net/mkgroup.html
+	touch /etc/group
+	mkgroup -c > /etc/group
 }
 
 fix_perms_on_passwd() {
@@ -130,4 +137,4 @@ setup_ssh_on_windows() {
 }
 
 remove_ssh_on_windows
-setup_ssh_on_windows
+# setup_ssh_on_windows
