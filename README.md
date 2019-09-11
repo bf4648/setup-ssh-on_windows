@@ -1,6 +1,16 @@
 # Getting started
 
-## NOTE: excellent reference on how to set up open ssh on windows: [open-ssh-on-windows](https://www.admfactory.com/how-to-install-openssh-on-windows/)
+## Update:  There is an easier way now: 
+
+* Install open ssh using the following link: [open-ssh-on-windows](https://www.admfactory.com/how-to-install-openssh-on-windows/)
+
+* Go through the process of going through the installation and choose to install SSHD as a server 
+* Once you get in using ssh, go to cygwin dir and execute the Cygwin.bat to get into cygwin
+
+```shell
+cd C:\tools\cygwin
+Cygwin.bat
+```
 
 1. Install Cygwin (after install chocoately) in an Admin Command Prompt:
 
