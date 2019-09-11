@@ -42,11 +42,11 @@ On the **Choose key size for key generation** screen click, **Next>** to continu
 
 On the **Choose user type for SSHD screen** click, **Next>** to continue.
 
-![openssh001](pngs/openssh0010.png)
+![openssh001](pngs/openssh010.png)
 
 On the **Finish** screen click, **Next>** to continue.
 
-![openssh001](pngs/openssh0011.png)
+![openssh001](pngs/openssh011.png)
 
 **Note:** the print screens are from Windows 10, but can be install on any Windows version.
 
