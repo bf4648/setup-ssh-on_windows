@@ -53,6 +53,7 @@ On the **Finish** screen click, **Next>** to continue.
 ![openssh011](pngs/openssh011.png)
 
 **Note:** the print screens are from Windows 10, but can be install on any Windows version.
+**Note:** You will be given a generated password.  Be sure to write that down.
 
 ## Verify
 
