@@ -10,43 +10,43 @@ From the project [website](http://www.mls-software.com/opensshd.html), download 
 
 On the **Welcome** screen click **Next>** to continue.
 
-![openssh001](pngs/openssh002.png)
+![openssh002](pngs/openssh002.png)
 
 On the **Licence Agreement** screen select **"I accept the terms of the Licence Agreement"** and click **Next>** to continue.
 
-![openssh001](pngs/openssh003.png)
+![openssh003](pngs/openssh003.png)
 
 On the **Choose Components** screen click, **Next>** to continue (there are already all selected).
 
-![openssh001](pngs/openssh004.png)
+![openssh004](pngs/openssh004.png)
 
 On the **Choose Install Location** screen click, **Next>** to continue. (Changed the **Destination Folder** if needed)
 
-![openssh001](pngs/openssh005.png)
+![openssh005](pngs/openssh005.png)
 
 On the **Choose Start Menu Folder** screen click, **Next>** to continue.
 
-![openssh001](pngs/openssh006.png)
+![openssh006](pngs/openssh006.png)
 
 On the **Choose account under which to execute SSHD** screen click, **Next>** to continue.
 
-![openssh001](pngs/openssh007.png)
+![openssh007](pngs/openssh007.png)
 
 On the **Choose port for SSHD daemon** screen click, **Next>** to continue.
 
-![openssh001](pngs/openssh008.png)
+![openssh008](pngs/openssh008.png)
 
 On the **Choose key size for key generation** screen click, **Next>** to continue.
 
-![openssh001](pngs/openssh009.png)
+![openssh009](pngs/openssh009.png)
 
 On the **Choose user type for SSHD screen** click, **Next>** to continue.
 
-![openssh001](pngs/openssh010.png)
+![openssh010](pngs/openssh010.png)
 
 On the **Finish** screen click, **Next>** to continue.
 
-![openssh001](pngs/openssh011.png)
+![openssh011](pngs/openssh011.png)
 
 **Note:** the print screens are from Windows 10, but can be install on any Windows version.
 
