@@ -32,6 +32,10 @@ On the **Choose account under which to execute SSHD** screen click, **Next>** to
 
 ![openssh007](pngs/openssh007.png)
 
+On the **Choose SSHD priviledge seperation**, **Next>** to continue.
+
+![priledged-account](pngs/priledged-account.png)
+
 On the **Choose port for SSHD daemon** screen click, **Next>** to continue.
 
 ![openssh008](pngs/openssh008.png)
