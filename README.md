@@ -73,3 +73,15 @@ usage: ssh [-1246AaCfGgKkMNnqsTtVvXxYy] [-b bind_address] [-c cipher_spec]
 
 C:\Users\adm>
 ```
+
+
+## Log into SSH using your local windows machine account user name and password
+
+You may have to reboot
+
+## Get into cygwin prompt after logging into ssh
+
+```shell
+cd c:\tools\cygwin
+Cygwin.bat
+```
