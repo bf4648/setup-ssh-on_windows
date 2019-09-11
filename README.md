@@ -2,53 +2,51 @@
 
 ## Download
 
-From the project [website](http://www.mls-software.com/opensshd.html), download the latest binary [file](https://www.mls-software.com/files/setupssh-8.0p1-2.exe).
+From the project [website](http://www.mls-software.com/opensshd.html), download the latest binary.
 
 ## Install
 
 ![openssh001](pngs/openssh001.png)
 
-How to install OpenSSH on Windows - openssh001
-
 On the **Welcome** screen click **Next>** to continue.
 
-How to install OpenSSH on Windows - openssh002
+![openssh001](pngs/openssh002.png)
 
 On the **Licence Agreement** screen select **"I accept the terms of the Licence Agreement"** and click **Next>** to continue.
 
-How to install OpenSSH on Windows - openssh003
+![openssh001](pngs/openssh003.png)
 
 On the **Choose Components** screen click, **Next>** to continue (there are already all selected).
 
-How to install OpenSSH on Windows - openssh004
+![openssh001](pngs/openssh004.png)
 
 On the **Choose Install Location** screen click, **Next>** to continue. (Changed the **Destination Folder** if needed)
 
-How to install OpenSSH on Windows - openssh005
+![openssh001](pngs/openssh005.png)
 
 On the **Choose Start Menu Folder** screen click, **Next>** to continue.
 
-How to install OpenSSH on Windows - openssh006
+![openssh001](pngs/openssh006.png)
 
 On the **Choose account under which to execute SSHD** screen click, **Next>** to continue.
 
-How to install OpenSSH on Windows - openssh007
+![openssh001](pngs/openssh007.png)
 
 On the **Choose port for SSHD daemon** screen click, **Next>** to continue.
 
-How to install OpenSSH on Windows - openssh008
+![openssh001](pngs/openssh008.png)
 
 On the **Choose key size for key generation** screen click, **Next>** to continue.
 
-How to install OpenSSH on Windows - openssh009
+![openssh001](pngs/openssh009.png)
 
 On the **Choose user type for SSHD screen** click, **Next>** to continue.
 
-How to install OpenSSH on Windows - openssh010
+![openssh001](pngs/openssh0010.png)
 
 On the **Finish** screen click, **Next>** to continue.
 
-How to install OpenSSH on Windows - openssh011
+![openssh001](pngs/openssh0011.png)
 
 **Note:** the print screens are from Windows 10, but can be install on any Windows version.
 
